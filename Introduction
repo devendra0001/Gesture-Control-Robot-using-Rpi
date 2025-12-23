@@ -3,7 +3,7 @@ Hand Gesture Controlled Robot using MediaPipe & Raspberry Pi
 Control a robot using hand gestures only, without Arduino.
 The Raspberry Pi processes video, detects hand gestures using MediaPipe, and directly controls motors through GPIO pins.
 
-📌 Project Overview
+Project Overview
 
 This project demonstrates AI + Robotics + Embedded Linux by implementing a touchless robot control system using computer vision.
 
@@ -15,7 +15,7 @@ Direct motor control via Raspberry Pi GPIO
 
 No microcontroller required
 
-🎯 Key Features
+Key Features
 
 ✔ No Arduino required
 ✔ Direct GPIO motor control
@@ -23,7 +23,7 @@ No microcontroller required
 ✔ Low latency response
 ✔ AIoT / Industry 4.0 ready
 
-🛠️ Tech Stack
+Tech Stack
 Software
 
 Raspberry Pi OS
@@ -50,7 +50,7 @@ Robot Chassis
 
 Power Supply
 
-📐 System Architecture
+System Architecture
 Hand Gesture
    ↓
 USB Camera
@@ -65,24 +65,15 @@ Motor Driver
    ↓
 Robot Movement
 
-✋ Gesture Mapping
+Gesture Mapping
 Fingers	Gesture	Action
 0	✊ Fist	STOP
 1	☝	FORWARD
 2	✌	BACKWARD
 3	🤟	LEFT
 4	🖐	RIGHT
-📂 Folder Structure (GitHub)
-hand-gesture-robot-rpi/
-│
-├── src/
-│   └── hand_gesture_robot.py
-│
-├── requirements.txt
-├── README.md
-└── demo.mp4 (optional)
 
-🧠 Working Principle
+Working Principle
 
 Camera captures live video
 
@@ -94,4 +85,4 @@ Gesture mapped to robot command
 
 Raspberry Pi GPIO controls motors
 
-🐍 Python Code (MediaPipe + GPIO)
+Python Code (MediaPipe + GPIO)
